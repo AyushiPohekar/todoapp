@@ -33,7 +33,7 @@ const removeDoneTodos = () => {
           dispatch(deleteTodo(_id));
       }
   })
-}
+ }
 
   return (
     <article>

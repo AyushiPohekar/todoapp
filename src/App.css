@@ -3,6 +3,7 @@
 body {
   width: 50%;
   margin: 0 auto;
+  background-color: #E7B10A;
 }
 
 header {
@@ -11,24 +12,24 @@ header {
 
 header h1 {
   font-size: 100px;
-  color: #2c3e50;
-  font-weight: 200;
+  color: #3D5656;
+  font-weight: 600;
 }
 
 input {
-  font-size: 20px;
+  font-size: 30px;
   color: #2c3e50;
   width: 100%;
   border: none;
   outline: none;
   border-bottom: 1px solid #2c3e50;
-  padding: 5px;
+  padding: 10px;
 }
 
 .task {
   background-color: #34495e;
   padding: 15px;
-  margin: 5px;
+  margin: 7px;
   overflow-x: hidden;
   border-radius: 5px;
   cursor: pointer;
@@ -36,11 +37,18 @@ input {
 
 .task span {
   color: #FFFFFF;
+  font-size: 17px;
 }
 
 .icon {
   float: right;
   margin-right: 20px;
+}
+.trashicon{
+  color: rgba(255, 0, 0, 0.722);
+}
+.editicon{
+  color:rgb(10, 196, 10)
 }
 
 article {
@@ -50,8 +58,8 @@ article {
 .edit-todo {
   width: 85%;
   font-size: 16px;
-  color: #FFFFFF;
-  background-color: transparent;
+  color: black;
+  background-color:white;
   border: none;
   border-bottom: 1px solid #FFFFFF;
 }

@@ -28,7 +28,8 @@ import { useState } from 'react';
             onClick={() => dispatch(ToggleTodo(todo._id))}
             style={{
                 textDecoration: todo?.done ? 'line-through' : '',
-                color: todo?.done ? '#bdc3c7' : '#34495e'
+                color: todo?.done ? 'red' : '#34495e',
+               
             }}
             data-testid="todo-test"
         >
@@ -47,11 +48,11 @@ import { useState } from 'react';
             </form>
 
             <span className="icon"  onClick={() => dispatch(deleteTodo(todo._id))}>
-                <FontAwesomeIcon icon={faTrash}/>
+                <FontAwesomeIcon icon={faTrash} className="trashicon"/>
                 
             </span>
             <span className="icon" onClick={() => setEditing(prevState => !prevState)}>
-            <FontAwesomeIcon icon={faEdit}/>
+            <FontAwesomeIcon icon={faEdit} className="editicon"/>
             </span>
         </li>
      )
