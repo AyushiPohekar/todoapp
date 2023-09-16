@@ -1,7 +1,7 @@
 
 You Can see full project on:
 
-https://mellifluous-melomakarona-7193e5.netlify.app/
+https://bejewelled-sunshine-227202.netlify.app/
 
 
 TodoApp:
