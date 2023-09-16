@@ -9,7 +9,7 @@ const reducer=combineReducers({
     todos:todosReducer,
     currentTab:tabReducers
 })
-
+ 
 const middleware=[thunk]
 
 const store=createStore(
