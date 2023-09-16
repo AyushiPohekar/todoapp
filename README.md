@@ -1,7 +1,7 @@
-Netlify LInk:https://stately-zuccutto-799589.netlify.app/
 
+You Can see full project on:
 
-
+https://mellifluous-melomakarona-7193e5.netlify.app/
 
 
 TodoApp:
